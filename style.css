@@ -14,8 +14,9 @@ h1 {
     color: orange;
 }
 
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width{
@@ -40,4 +41,10 @@ section{
     background-image: url("myimg/top-banne.png");
     background-repeat: no-repeat;
 
+}
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
